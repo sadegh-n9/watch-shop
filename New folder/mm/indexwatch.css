@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+  * {
+	/* [disabled]margin:0; */
+	padding:0;
+	margin:0;
+   }
+    body {
+	background-color:#1D1D1D
+    }
+/*start sytle*/
+   div.container {
+	width:1000px;
+	min-height:1020px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+    }
+   div.header {
+	width:100%;
+	height:164px;
+	 }
+   div.menu-top{
+	width:100%;
+	height:40px;
+	
+	
+}
+    div.menu-top ul {
+	width:100%;
+	height:100%;
+	background-color:#000;
+		
+	
+	}
+   div.menu-top li {
+	width:100px;
+	height:100%;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	
+	
+	
+	
+
+	}
+   div.menu-top li:hover {
+	background-color:#256761;
+	border-radius: 2px;
+	
+	
+     	
+	}
+	div.menu-top a:hover {
+	color:#FFFFFF;
+	
+	
+     	
+	}
+   div.menu-top li a {
+	float: left;
+	padding: 10px 20px;
+	color: #999;
+	text-transform: uppercase;
+	font: bold 12px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+	
+	
+	}
+   div.flash-watch {
+	width:250px;
+	height:60px;
+		
+    }
+   
+       
+    div.flash-img {
+	width:100%;
+	min-height:300px;
+	}
+    div.flashs{
+	width:auto;
+	height:300px;
+	background-image:url(pic11/rolex-deepsea-1600x1024.jpg);
+	}
+	/*------------------------------------------------------------------------------------*/
+	
+	div.menu-watch #menu{
+	width:999px;
+	height:50px;
+	background-color: #000;
+	background-image: linear-gradient(#444,  #000);
+	border-radius: 11px;
+	box-shadow: 0 2px 2px #000;
+	
+	
+	
+	}
+	
+  div.menu-watch #menu:before,#menu:after {
+	content: "";
+	display: table;
+     }
+
+     div.menu-watch #menu:after {
+	clear: both;
+      }
+
+     div.menu-watch #menu {
+	zoom:0;
+	
+      }
+   div.menu-watch #menu li {
+	float: left;
+	border-right: 1px solid #000;
+	box-shadow: 1px 1 1 #000;
+	position: relative;
+	margin-left:2px;
+	list-style-type:none;
+	
+	
+    
+	
+   }
+
+    div.menu-watch #menu a {
+	float: left;
+	padding: 17px 42px;
+	color: #999;
+	text-transform: uppercase;
+	font: bold 12px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+     }
+
+    div.menu-watch #menu li:hover > a {
+	color: #fafafa;
+    }
+
+    div.menu-watch *html #menu li a:hover { /* IE6 only */
+	color: #fafafa;
+    }
+   div.menu-watch #menu ul {
+	margin: 32px 0 0 0;
+	_margin: 0; /*IE6 only*/
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index: 1;    
+	background: #444;	
+	background: linear-gradient(#444,  #000);
+	box-shadow: 0 -1px 0 rgba(255,255,255,.3);	
+	border-radius: 3px;
+	transition: all .2s ease-in-out;  
+	
+   }
+
+    div.menu-watch #menu li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+	
+    }
+
+     div.menu-watch #menu ul ul {
+	top: 0;
+	left: 150px;
+	margin: 0 0 0 20px;
+	_margin: 0; /*IE6 only*/
+	box-shadow: -1px 0 0 rgba(255,255,255,.3);		
+    }
+
+     div.menu-watch #menu ul li {
+	float: none;
+	display: block;
+	border: 0;
+	_line-height: 0; /*IE6 only*/
+	box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    }
+
+    div.menu-watch #menu ul li:last-child {   
+	box-shadow: none;    
+    }
+
+     div.menu-watch   #menu ul a {    
+	padding: 10px;
+	width: 130px;
+	_height: 10px; /*IE6 only*/
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+     }
+
+    div.menu-watch  #menu ul a:hover {
+	background-color:#256761;
+	background-image: linear-gradient(#04acec, #0186ba);
+}
+
+   div.menu-watch #menu ul li:first-child > a {
+	border-radius: 3px 3px 0 0;
+}
+
+div.menu-watch  #menu ul li:first-child > a:after {
+	content: '';
+	position: absolute;
+	left: 40px;
+	top: -6px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #444;
+}
+
+div.menu-watch #menu ul ul li:first-child a:after {
+	left: -6px;
+	top: 50%;
+	margin-top: -6px;
+	border-left: 0;	
+	border-bottom: 6px solid transparent;
+	border-top: 6px solid transparent;
+	border-right: 6px solid #3b3b3b;
+}
+
+div.menu-watch #menu ul li:first-child a:hover:after {
+	border-bottom-color: #04acec; 
+}
+
+div.menu-watch #menu ul ul li:first-child a:hover:after {
+	border-right-color: #0299d3; 
+	border-bottom-color: transparent; 	
+}
+
+div.menu-watch #menu ul li:last-child > a {
+	border-radius: 0 0 3px 3px;
+}
+	/*-------------------------------------------*/
+	
+
+div.flashs > div {
+	float    : left;
+	width    : 128px;
+	overflow : hidden;
+	
+}
+
+div.flashs > div:last-child {
+	padding-right :5px;
+}
+
+div. flashs > div > img {
+	display: block;
+	
+}
+
+
+/* Acc Slide css animation (no js)
+-------------------------------------------------- */
+
+div.flashs > div {
+	-webkit-transition : all .8s linear; /* u can move to line 21 */
+}
+
+div:hover .flashs > div {
+	width    : 50px;
+}
+
+div.flashs > div:hover {
+	width    : 450px;
+}
+	
+	/*-------------------------------------*/
+	div.images{
+	width:390px;
+	height:300px;
+	float:right;
+	border:2px solid #000;
+
+
+	}
+	div.contan{
+	width:100%;
+	height:310px;
+
+	}
+	div.contan img{
+	padding:8px;
+	margin-top:2px;	
+	border:solid #333 1px;
+	}
+	div.contan img:hover{
+	border:solid #333 1px;
+	}
+	div.contan img:focus{
+	border:solid #333 1px;
+	}
+	div.footer1 {
+	width:100%;
+	height:70px;
+	margin-top:5px;
+		}
+	div.footer1 img{
+	width:100px;
+	height:40px;
+	margin-left:35px;
+	}
+	div.footer1 hr{
+	color:#999;
+	}
+	div.footer2 {
+	width:100%;
+	height:100px;
+	}
+	div.footer2 pre{
+	color:#CCC;
+	}
+	div.footer2 th{
+	color:#CCC;
+	font-size:26px;
+	}
+	div.footer3{
+	width:100%;
+	height:50px;
+	}
+	div.footer3 pre{
+	color:#256761;
+	text-align: right;
+	text-decoration:blink;
+	font-size:14px;
+	padding-top:10px;
+	}	
+	div a{
+		outline:none;
+	}

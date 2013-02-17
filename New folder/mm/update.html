@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="image/favicon.ico">
+<title>site update</title>
+<link  href="update.css" type="text/css"  rel="stylesheet" />
+
+
+</head>
+
+<body>           
+<div  class="container">
+  <div  class="header">
+    <div class="menu-top">
+     <ul>
+        <li><a href="index1.html" target="_self">WATCHES</a></li>
+        <li> <a href="jewellery.html" target="_self">JEWELLERY</a></li>
+         <li> <a href="email.html" target="_self">LOGIN</a></li>
+      </ul>  </div>
+    <div class="flash-watch">   <img  src="image/watchshop1.gif" width="210"  height="60"/> </div></div>
+   	<div class="update">
+    <div class="upload">
+    	<h1>Upload Form</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+         <input type="file" name="file" ><br>
+          <input type="text" name="tag" ><br>
+                 <button type="submit" name="submit" value="upload">upload</button>
+            </form>     </div>
+      <div class="delete">
+      	<h1>Delete Form</h1>
+    		<form action="delete_files.php" method="post">
+            	<input type="file" name="file">
+                  <button type="submit" name="submit" value="Delete">delete</button>
+             </form>    </div>   </div>         
+</div>
+
+</body>
+</html>
+
+
